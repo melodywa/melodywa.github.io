@@ -15,18 +15,6 @@
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
       
-      // Optional: Add visual indicator for external links
-      if (!link.classList.contains('btn') && !link.classList.contains('btn--html')) {
-        // Skip adding indicators to buttons
-        if (link.querySelector('i.fa-external-link') === null) {
-          // Only add icon if it doesn't already have one
-          var icon = document.createElement('i');
-          icon.className = 'fas fa-external-link-alt';
-          icon.style.marginLeft = '0.3em';
-          icon.style.fontSize = '0.8em';
-          link.appendChild(icon);
-        }
-      }
     });
     
     // Special handling for PDF buttons and HTML buttons that should always open in new tab
