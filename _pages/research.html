@@ -6,74 +6,14 @@ author_profile: true
 ---
 
 <h2>Research interests</h2>
+
+<p>My research centres around the sound aspect of linguistics, with a greater emphasis on phonology, which studies the underlying representation of human sounds. I am particularly interested in 'opacity'. Some major questions for which I seek answers include:  </p>
 <ul>
-    <li>Representation and learning of morphophonological alternations</li>
-    <l>Computational models of phonological learning</li>
-    <li>Phonology of Austronesian langauges (Seediq, Rukai, Maori, Samoan, Malagasy)</li>
-    <li>Effect of input and frequency on morphophonological learning</li>
-    <li>Statistical learning and variation</li>
+    <li>How opaque is 'opacity'?</li>
+    <l>How learnable is opacity?</li>
+    <li>What is the best theoretical framework to account for various types of opacity?</li>
 </ul>
 
-<h2> Projects </h2>
-<div class="wrap-collabsible">
-    <input id="reanalysis" class="toggle" type="checkbox">
-    <label for="reanalysis" class="lbl-toggle"><b>Markedness effects in the reanalysis of morphophonological paradigms</b></label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>Paradigms that have neutralizing alternations can be difficult to learn, and be prone to renalaysis over time. Understanding the direction and output of reanalysis can further our understanding of the factors that drive phonological learning. There are few quantitative models of reanalysis, and existing ones such as Albright's Minimal Generalization Learner (MGL; 2002; 2003, <i>et seq</i>) and Nosofky's Generalized Context Model (GCM; 2011) predict renalaysis to always be predictable from local statistical distributions within a paradigm. In other words, reanalysis should be in the direction of the most likely alternant.</p>
+<p>Another interest of mine is 'prosody', including both phonological structures and phonetic realisations. On the phonology side, I am interested in metrics (e.g., Chinese poetry and other art forms) and prosody-syntax interface. On the phonetics side, I worked on emotional prosody (e.g., sarcasm). </p>
 
-            <p>
-            In my dissertation work, I look at how paradigms have been restructured across three languages: Malagasy, Samoan, and Maori. In all three languages, I find evidence that reanalysis is sensitive not just to local statistical distributions, but also to markedness effects. I also propose these markedness effects are directly learned from stem phonotactics. Based on these results, I propose a model of reanalysis based in MaxEnt, where markedness constraints (derived from stem phonotactics) are biased to have higher weight than competing faithfulness constraints.
-            </p>
-
-            <p> Results of this project form the basis of my [dissertation](/publications/2023-phd-dissertation). Other work that came out of this project include my papers on <a href="/publications/2024-mlg-phonology">Malagasy</a>, on <a href="/publications/2024-sam-reanalysis-jphon">OCP-place effects in Samoan</a>, and on <a href="/publications/2024-nels-maori">hiatus avoidance in Maori</a>. 
-            </p>
-
-        </div>
-    </div>
-</div>
-<br>
-
-<div class="wrap-collabsible">
-    <input id="seediq" class="toggle" type="checkbox">
-    <label for="seediq" class="lbl-toggle"><b>Abstract vs. surface-base representations in morphophonemics </b></label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>Traditionally in morphophonemic analysis, surface forms are derived from an underlying representation (UR), which contains all indiosyncratic properties of a morpheme. In this approach, there are no restrictions on how abstract the UR can be (i.e. how much it can deviate from its corresponding surface forms). However, an increasing body of work, such as Albright (2002, et seq.), argues that paradigms must be surface-based, in that the UR must be based on a single slot within the paradigm. In my work on two Formosan languages of Taiwan, Tgdaya Seediq and Maga Rukai, I find evdience in favor of this surface-base approach.</p>
-
-            <p>Tgdaya Seediq and Maga Rukai share the trait that all forms of a verb paradigm suffer from some type of neutralization, such that no slot can be used to perfectly predict the rest of the paradigm. Under traditional morphophononemic analysis, this is dealt with by setting up URs that are composite. Composite URs combine information from multiple forms of the paradigm , and therefore do not correspond to any surface allomorph(Kenstowicz and Kisseberth, 1977). If  composite URs are learnable, then we would expect them to remain stable over time. However, I find that in both Seediq and Rukai, paradigms have been restructured in a way that results in more concrete URs, in line with a surface-base approach. 
-
-            <p>My work on Seediq formed the basis of my <a href="/publications/2020-MA-thesis">MA thesis</a>; a follow-up study, which incorporates wug-test results with Seediq speaekrs, was published in <a href="/publications/2023-pda-sdq">Phonological Data and Analysis</a>.</p> My work on Maga Rukai will be presented in SEALS (Southeast Asian Linguistics), and is available as a <a href="/publications/2025-rukai-manuscript">manuscript in progress</a>. 
-            </p>
-
-        </div>
-    </div>
-</div>
-
-<br>
-<div class="wrap-collabsible">
-    <input id="clustering" class="toggle" type="checkbox">
-    <label for="clustering" class="lbl-toggle"><b>Comparing clustering algorithms for identifying vowel categories</b></label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>In joint work with <a href="https://emilygrabowski.github.io/">Emily Grabowski</a> (UC Berkeley), we are comparing different clustering algorithms in their ability to characterize vowel spaces. In descriptive phonetics, clustering algorithms are often used to evaluate the dispersion of vowel categories. The k-means algorithm is most commonly used for this purpose but has major limitations: i) it requires a specified number of clusters, ii) it assumes that clusters are spheres of similar size (Han et al. 2011), and iii) can be skewed by outliers. OPTICS is an algorithm that uses areas of high density in the data to identify clusters in contrast to k-means, which partitions all points in the data into k clusters (Ankerst et al 1999). As a result, OPTICS avoids many of the pitfalls of k-means: it organically assigns the number of clusters, can learn clusters of varying shape and density, and separates prototypical members of a cluster from outliers. </p>
-
-            <p>In a preliminary study, we compared the vowel clusters found by k-means and OPTICS in two datasets of English monophthongs, respectively of ‘lab’speech (Hillenbrand et al.1995) and ‘corpus’ speech (Buckeye Corpus: Pitt et al. 2005). </p>
-
-            <p>Results show that k-means partitions the vowel space into roughly evenly sized clusters, which results in inaccurate boundaries between certain vowels. On the other hand, OPTICS identifies accurate vowel centers, but doesn’t attempt to categorize every observation. Because of these different approaches to clustering, OPTICS seems to be better-suited to illustrating the core vowel space, and minimizing the effect of outliers.   </p>
-        </div>
-    </div>
-</div>
-
-<br>
-<div class="wrap-collabsible">
-    <input id="socioling" class="toggle" type="checkbox">
-    <label for="socioling" class="lbl-toggle"><b>Sociophonetic variation in Yongning Na</b></label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>I am working with <a href="https://www.dartmouth.edu/~jstanford/">James Stanford</a> at Dartmouth College and <a href="https://scholar.google.com/citations?user=45OKAPAAAAAJ&hl=en">Cathryn Yang</a> at Yunnan Minzu University on sociolinguistic variation in Na (or Mosuo). Na is a rural language community with ~40,000 people, located mainly around Lugu Lake in Yunnan and Sichuan. The Na practice matrilineal inheritance with lifelong matrilocal residence. As such, variation in Na is of particular theoretical interest for examining Labov's classic gender principles of sound change (e.g., Labov 1966, 2001, Trudgill 1972, Wolfram 1969). </p>
-
-            <p> Preliminary results, based on word-list reading from 48 speakers, suggests that consistent with Labovian principles, Na women are leading sound changes in tone and vowel quality.</p>
-        </div>
-    </div>
-</div>
+<p>Please feel free to contact me if you are interested in my work or wish to collaborate! </p>
