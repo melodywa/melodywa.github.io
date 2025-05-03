@@ -46,6 +46,8 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+external_links:
+  open_new_tab: true
 
 # SEO Related
 google_site_verification :
