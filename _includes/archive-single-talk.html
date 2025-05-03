@@ -27,7 +27,7 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
         {% if post.venue %}
-        {{post.authors}}. "{{post.title}}." {{post.type}} presented on {{ post.date | date: '%B %d, %Y' }}, {% if post.presenter %} by {{ post.presenter }}{% endif %} at {{ post.venue }},  {{post.location}}.
+        {{post.authors}}. {{post.title}}. {{post.type}} presented on {{ post.date | date: '%B %d, %Y' }}, {% if post.presenter %} by {{ post.presenter }}{% endif %} at {{ post.venue }},  {{post.location}}.
 
         {% else %}
         {{ title }}
