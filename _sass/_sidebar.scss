@@ -138,7 +138,7 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
-  font-size: $type-size-1;
+  font-size: 0.9em;
 
   li:last-child {
     a {
@@ -172,7 +172,7 @@
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
-  font-size: $type-size-1;
+  font-size: 0.9em;
 
   @include breakpoint($large) {
     display: block;
