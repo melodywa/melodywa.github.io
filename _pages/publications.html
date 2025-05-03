@@ -13,22 +13,15 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+<h2>Selected presentations </h2>
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
 <h2>Manuscripts </h2>
 
 {% assign ms = site.publications | where: "category", "unpublished" %}
 {% for post in ms reversed %}
   {% include archive-single.html %}
-{% endfor %}
-
-<h2>Theses </h2>
-
-{% assign ms = site.publications | where: "category", "thesis" %}
-{% for post in ms reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Selected presentations </h2>
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
 {% endfor %}
