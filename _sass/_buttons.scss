@@ -163,7 +163,7 @@
       margin-top: 0em;
       margin-bottom: 0.2em;
       padding: 0.12em 0.2em;
-      color: #8a4fff;
+      color: $success-color;
       font-family: $monospace;
       font-size: $type-size-6*1.1;
       font-weight: bold;
@@ -172,12 +172,12 @@
       // background-color: mix(#fff, $link-color, 90%);
       border: 1px solid;
       border-radius: $border-radius;
-      border-color: #8a4fff;
+      border-color: $success-color;
       cursor: pointer;
 
     &:hover {
       color: #fff;
-      background-color: #8a4fff !important;
+      background-color: $success-color !important;
     }
   }
 
