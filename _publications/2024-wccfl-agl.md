@@ -1,9 +1,0 @@
----
-title: 'Types of statistical knowledge in alternation learning: insights from artificial grammar learning'
-collection: publications
-category: published
-permalink: /publications/2024-wccfl-agl
-paperurl: 'http://jenniferxkuo.github.io/files/publications/2024_wccfl_proceedings_preprint.pdf'
-citation: "[to appear] Kuo, Jennifer. &quot;Types of statistical knowledge in alternation learning: insights from artificial grammar learning.&quot; <i>Proceedings of WCCFL 42</i>."
-abstract: 'Crosslinguistically, alternations tend to remove phonotactic violations, but mismatches between phonotactics and alternations are also observed (e.g. Kiparsky 1993, Chong 2019). As a result, it is unclear when phonotactics and alternations are allowed to mismatch, and when are they not. One possibility, explored in this paper, is that alternation learning primarily involves frequency-matching, in that speakers match the paradigm-internal distribution of alternants. Speakers draw on phonotactics only when these frequencies are uninformative and there is ambiguity in whether or not an alternation should apply. We used an artificial grammar learning paradigm to test this proposal, and better understand how frequency-matching and phonotactics interact. Adult participants were taught a language where stem-final [p] alternates with [k] under suffixation. To test for effects of phonotactics, words were shown with different suffixes, where in some suffix conditions, alternation crucially reduces violations of phonotactic markedness. To test for effects of frequency-matching, participants were put into four groups, which differed in the rates of p-k alternation in the input. Results suggest that speakers use both frequency-matching and phonotactics in the learning of alternations. However, phonotactics is not always active, and is instead constrained by paradigm-internal frequencies.'
----
