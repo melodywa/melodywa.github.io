@@ -1,9 +1,0 @@
----
-title: 'Do we need self-destructive feeding?'
-collection: publications
-category: published
-permalink: /publications/2025-wccfl
-paperurl: ''
-citation: "[to appear] Wang, Yuxuan Melody. &quot;Do we need self-destructive feeding?&quot; <i>WCCFL 43: Proceedings of the 43rd West Coast Conference on Formal Linguistics</i>."
-abstract: ''
----
