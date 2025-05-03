@@ -8,4 +8,45 @@ author_profile: true
 
 <p>I am a huge lover of cats! I have three cats back at home. As my best friends, they have given me immense support when I am down. Wish they all grow up healthily and happily.</p>
 
-<img src="{{ base_path }}/images/豆花过生日.jpeg" alt="豆豆花花过生日" >
+<div class="gallery">
+  <figure>
+    <img src="{{ base_path }}/images/豆豆帅卫衣.jpeg" alt="豆豆帅卫衣">
+    <figcaption>豆豆穿着帅卫衣</figcaption>
+  </figure>
+  
+  <figure>
+    <img src="{{ base_path }}/images/花花歪头杀.jpeg" alt="花花歪头杀">
+    <figcaption>花花歪头杀</figcaption>
+  </figure>
+  
+  <figure>
+    <img src="{{ base_path }}/images/糖糖花骨朵.jpeg" alt="糖糖花骨朵">
+    <figcaption>糖糖和花骨朵</figcaption>
+  </figure>
+</div>
+
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery figure {
+    width: 31%;
+    margin-bottom: 20px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .gallery figure {
+      width: 48%;
+    }
+  }
+  @media (max-width: 480px) {
+    .gallery figure {
+      width: 100%;
+    }
+  }
+</style>
