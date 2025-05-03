@@ -1,5 +1,5 @@
 ---
-title: Number as Feature: evidence from Turkish -(s)I
+title: "Number as Feature: evidence from Turkish -(s)I"
 collection: publications
 category: published
 permalink: /publications/2024-glowinasia
