@@ -1,10 +1,9 @@
 ---
-title: 'Phonological reanalysis is guided is guided by markedness: the case of Malagasy weak stems'
+title: 'Revisiting SDF in Javanese'
 collection: publications
 category: published
-permalink: /publications/2024-mlg-phonology
-paperurl: 'http://jenniferxkuo.github.io/files/publications/phon_mlg_0926.pdf'
-citation: "[to appear] Kuo, Jennifer. &quot;Phonological reanalysis is guided is guided by markedness: the case of Malagasy weak stems.&quot; <i>Phonology</i>."
-abstract: 'A key goal in phonology is to understand the factors that affect phonological learning. This paper addresses the issue by examining how paradigms are reanalyzed over time. Malagasy has a class of stems, called weak stems, where final consonants alternate when suffixed. Comparison of historical and modern Malagasy shows that weak stem paradigms have undergone extensive reanalysis in a way that cannot be predicted by the probabilistic distribution of alternants. This poses a problem for existing quantitative models of morphophonological learning, where reanalysis is always towards the most probable alternant. I argue instead that reanalysis in Malagasy is driven by both distributional factors and a markedness bias. To capture the Malagasy pattern, I propose a Maximum Entropy learning model (Goldwater & Johnson, 2003), with a markedness bias implemented via the model’s prior probability distribution. This biased model successfully predicts the direction of reanalysis in Malagasy, outperforming purely distributional models.'
-
+permalink: /publications/2024-plc48
+paperurl: ''
+citation: "Wang, Yuxuan Melody. [to appear]. &quot;Revisiting SDF in Javanese.&quot; <i>Penn Working Papers in Linguistics 31.1: Proceedings of PLC 48 (PWPL 31.1)</i>. UPenn"
+abstract: ''
 ---
