@@ -1,19 +1,19 @@
 ---
 permalink: /
 title: "Welcome!"
-excerpt: "Jennifer Kuo | Linguistics"
+excerpt: "Melody Wang"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am an Assistant Professor in the Department of Linguistics at Cornell University. 
+<br><br>
 
-I am primarily interested in how morphophonological paradigms are learned. I look at how paradigm learning is affected by different cognitive biases, and how statistical learning interacts with such biases. I address this question using experiments (wug tests, artificial grammar learning), comparative data on language change over time, and quantitative modeling.
+I am a PhD student in Linguistics at Harvard University. My research focuses on the sounds of languages with an emphasis on phonology, which is the study of the abstract underlying representations of sounds. I also touch on morphology, phonetics, prosody, speech sciences and other related disciplines. 
 
-My empirical focus is on Austronesian languages. Languages I have worked on include Seediq (Atayalic), Malagasy (Malayo-Polynesian), Māori (Malay-Polynesian), and Yongning Na (Sino-Tibetan). 
 
-My dissertation, titled <i>Phonological markedness effects in paradigm reanalysis</i>, looks at the interaction of frequency-matching with markedness-avoidance in Malagasy, Samoan, and Māori. Details can be found [here](/publications/2023-phd-dissertation).
+After finishing high school in Oxford, UK, I began my linguistic journey at UCL. Subsequently, I received an MPhil degree at University of Cambridge before my PhD at Harvard. I also had a two-month research internship at CUHK after my second year at college. During my BA and MPhil, I had chances to investigate various phonological questions such as locality biases, opacity and dissimilation, as well as to carry out phonetic analyses regarding the emotional prosody of Mandarin. 
 
-I'm also a member of the [Cornell Phonetics Lab](https://conf.ling.cornell.edu/). Please check out what we are up to! 
+
+Beyond my linguistics work, I love reading, football, films, and most importantly -- CATS!!!
