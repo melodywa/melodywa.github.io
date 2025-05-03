@@ -56,10 +56,10 @@ layout: default
         {% endif %}
 
         {% if page.link %}
-          <a href="{{ page.link }}" class="btn--html" target="_blank">HTML</a>
+          <a href="{{ page.link }}" class="btn--html" target="_blank" rel="noopener noreferrer">HTML</a>
         {% endif %}
         {% if page.paperurl %}
-          <a href="{{ page.paperurl }}" class="btn" target="_blank">PDF</a>
+          <a href="{{ page.paperurl }}" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
         {% endif %}
         
         {% if page.abstract %}
