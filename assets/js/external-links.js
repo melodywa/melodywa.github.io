@@ -14,7 +14,6 @@
       // Add target and security attributes
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
-      
     });
     
     // Special handling for PDF buttons and HTML buttons that should always open in new tab
