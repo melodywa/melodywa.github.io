@@ -66,37 +66,69 @@ author_profile: true
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  
   .gallery figure {
     width: 31%;
     margin-bottom: 20px;
   }
+  
   .gallery img {
     width: 100%;
     height: auto;
   }
-  @media (max-width: 768px) {
-    .gallery figure {
-      width: 48%;
-    }
-  }
-  @media (max-width: 480px) {
-    .gallery figure {
-      width: 100%;
-    }
+  
+  /* Two-column section styles */
+  .two-column-section {
+    display: flex;
+    flex-direction: row; /* Explicitly set row direction */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 30px;
+    margin: 40px 0;
+    width: 100%;
+    align-items: flex-start; /* Align items at the top */
   }
   
+  .left-column {
+    flex: 1;
+    min-width: 0;
+    max-width: 40%; /* Limit maximum width */
+  }
+  
+  .right-column {
+    flex: 1.5;
+    min-width: 0;
+  }
+  
+  .left-column figure {
+    margin: 0;
+  }
+  
+  .left-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block; /* Remove any inline spacing */
+  }
+  
+  .left-column figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Three-column section styles */
   .three-column-section {
     display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping by default */
+    flex-wrap: nowrap;
     gap: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    overflow-x: auto;
   }
   
   .three-column-section .column {
     flex: 1;
-    min-width: 0; /* Allow columns to shrink below content size */
+    min-width: 0;
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
@@ -110,15 +142,34 @@ author_profile: true
     padding-bottom: 10px;
   }
   
-  /* Only switch to stacked layout below 768px */
+  /* Responsive adjustments */
   @media (max-width: 768px) {
+    .gallery figure {
+      width: 48%;
+    }
+    
+    .two-column-section {
+      flex-direction: column;
+    }
+    
+    .left-column, .right-column {
+      flex: auto;
+      max-width: 100%; /* Reset max-width for mobile */
+    }
+    
     .three-column-section {
       flex-direction: column;
-      overflow-x: visible; /* No need for horizontal scroll in column layout */
+      overflow-x: visible;
     }
     
     .three-column-section .column {
       margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery figure {
+      width: 100%;
     }
   }
 </style>
