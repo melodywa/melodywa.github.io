@@ -66,12 +66,10 @@ author_profile: true
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
   .gallery figure {
     width: 31%;
     margin-bottom: 20px;
   }
-  
   .gallery img {
     width: 100%;
     height: auto;
@@ -80,18 +78,13 @@ author_profile: true
   /* Two-column section styles */
   .two-column-section {
     display: flex;
-    flex-direction: row; /* Explicitly set row direction */
-    flex-wrap: nowrap; /* Prevent wrapping */
     gap: 30px;
     margin: 40px 0;
-    width: 100%;
-    align-items: flex-start; /* Align items at the top */
   }
   
   .left-column {
     flex: 1;
     min-width: 0;
-    max-width: 40%; /* Limit maximum width */
   }
   
   .right-column {
@@ -107,7 +100,6 @@ author_profile: true
     width: 100%;
     height: auto;
     border-radius: 8px;
-    display: block; /* Remove any inline spacing */
   }
   
   .left-column figcaption {
@@ -154,7 +146,6 @@ author_profile: true
     
     .left-column, .right-column {
       flex: auto;
-      max-width: 100%; /* Reset max-width for mobile */
     }
     
     .three-column-section {
