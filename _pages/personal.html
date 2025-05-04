@@ -35,15 +35,15 @@ author_profile: true
 <div class="three-column-section">
   <div class="column">
     <h3>Doudou</h3>
-    <p>Doudou is the oldest and most confident cat. He loves wearing sweaters and being photographed. His favorite activities include sitting on my laptop when I'm working and demanding belly rubs at the most inconvenient times.</p>
+    <p>Doudou is the oldest and most confident cat. He loves wearing sweaters and being photographed. His favorite activities include sitting on my laptop when I'm working and demanding belly rubs.</p>
   </div>
   <div class="column">
     <h3>Huahua</h3>
-    <p>Huahua is my little princess. She has mastered the art of the head tilt to get whatever she wants. Her favorite spot is on the windowsill watching birds, and she makes the cutest chirping sounds when excited.</p>
+    <p>Huahua is my little princess. She has mastered the art of the head tilt to get whatever she wants. Her favorite spot is on the windowsill watching birds, and she makes the cutest chirping sounds.</p>
   </div>
   <div class="column">
     <h3>Tangtang</h3>
-    <p>Tangtang is the youngest and most playful of the trio. She carries her favorite toys everywhere and has an impressive collection of bottle caps she's collected from around the house. At night, she insists on sleeping right next to my pillow.</p>
+    <p>Tangtang is the youngest and most playful of the trio. She carries her favorite toys everywhere and has an impressive collection of bottle caps she's collected from around the house.</p>
   </div>
 </div>
 
@@ -74,15 +74,16 @@ author_profile: true
   
   .three-column-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent wrapping by default */
     gap: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
   }
   
   .three-column-section .column {
     flex: 1;
-    min-width: 250px;
+    min-width: 0; /* Allow columns to shrink below content size */
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
@@ -96,9 +97,11 @@ author_profile: true
     padding-bottom: 10px;
   }
   
+  /* Only switch to stacked layout below 768px */
   @media (max-width: 768px) {
     .three-column-section {
       flex-direction: column;
+      overflow-x: visible; /* No need for horizontal scroll in column layout */
     }
     
     .three-column-section .column {
