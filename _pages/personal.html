@@ -25,7 +25,7 @@ author_profile: true
   </figure>
 </div>
 
-<figure>
+<figure class="birthday-image">
   <img src="{{ base_path }}/images/豆花过生日.jpeg" alt="豆花过生日" width="500" class="align-center">
   <figcaption>Doudou and Huahua celebrating their 3rd birthday!</figcaption>
 </figure>
@@ -61,25 +61,37 @@ author_profile: true
 </div>
 
 <style>
+  /* Common styling for all figure captions */
+  figure {
+    margin: 0 0 20px 0;
+  }
+  
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Gallery specific styles */
   .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .gallery figure {
-    width: 31%;
     margin-bottom: 20px;
   }
-  .gallery img {
-    width: 100%;
-    height: auto;
-  }
-  .gallery img figcaption {
-    margin-top: 8px;
-    text-align: center;
+  
+  .gallery figure {
+    width: 31%;
   }
   
-  /* Stacked content styles (formerly two-column) */
+  /* Stacked content styles */
   .stacked-content {
     display: flex;
     flex-direction: column;
@@ -87,21 +99,13 @@ author_profile: true
   }
   
   .snack-image {
-    margin: 0 0 20px 0;
     text-align: center;
+    margin-bottom: 20px;
   }
   
   .snack-image img {
     max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    display: block;
     margin: 0 auto;
-  }
-  
-  .snack-image figcaption {
-    margin-top: 8px;
-    text-align: center;
   }
   
   .text-section {
