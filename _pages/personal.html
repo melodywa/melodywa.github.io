@@ -30,14 +30,14 @@ author_profile: true
   <figcaption>Doudou and Huahua celebrating their 3rd birthday!</figcaption>
 </figure>
 
-<div class="two-column-section">
-  <div class="left-column">
-    <figure>
-      <img src="{{ base_path }}/images/豆花糖等开饭.jpg" alt="豆花糖等开饭">
-      <figcaption>The trio asking for snacks. CANNOT WAIT!</figcaption>
-    </figure>
-  </div>
-  <div class="right-column">
+<!-- Stacked content (formerly two-column section) -->
+<div class="stacked-content">
+  <figure class="snack-image">
+    <img src="{{ base_path }}/images/豆花糖等开饭.jpg" alt="豆花糖等开饭">
+    <figcaption>The trio asking for snacks. CANNOT WAIT!</figcaption>
+  </figure>
+  
+  <div class="text-section">
     <h3>Mealtime Drama</h3>
     <p>It's their routine to have snacks at 9pm every night. This is what you get at 9:01pm -- Doudou and Huahua looking very keen and Tangtang looking very angry. Who can resist these faces?</p>
   </div>
@@ -48,11 +48,11 @@ author_profile: true
 <div class="three-column-section">
   <div class="column">
     <h3>Reading</h3>
-    <p>I love reading history books and wuxia novels -- the only type of fiction I like, really. My favourite novelist is Jin Yong. If you are also a fan, try to guess who my favourite character is! </p>
+    <p>I love reading history books and wuxia novels -- the only type of fiction I like, really. My favourite novelist is Jin Yong. If you are also a fan, try to guess who my favourite character is!</p>
   </div>
   <div class="column">
     <h3>Football</h3>
-    <p>I am a huge fan of Real Madrid. My Tuesdays and Wednesdays (UCL days) are usually spent in front of the TV as long as I have no classes. (This time difference has really made me suffer, AHHH!) </p>
+    <p>I am a huge fan of Real Madrid. My Tuesdays and Wednesdays (UCL days) are usually spent in front of the TV as long as I have no classes. (This time difference has really made me suffer, AHHH!)</p>
   </div>
   <div class="column">
     <h3>Films</h3>
@@ -75,37 +75,39 @@ author_profile: true
     height: auto;
   }
   
-  /* Two-column section styles */
-  .two-column-section {
+  /* Stacked content styles (formerly two-column) */
+  .stacked-content {
     display: flex;
-    gap: 30px;
+    flex-direction: column;
     margin: 40px 0;
   }
   
-  .left-column {
-    flex: 1;
-    min-width: 0;
+  .snack-image {
+    margin: 0 0 20px 0;
+    text-align: center;
   }
   
-  .right-column {
-    flex: 1.5;
-    min-width: 0;
-  }
-  
-  .left-column figure {
-    margin: 0;
-  }
-  
-  .left-column img {
-    width: 100%;
+  .snack-image img {
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto;
   }
   
-  .left-column figcaption {
+  .snack-image figcaption {
     margin-top: 8px;
     text-align: center;
     font-style: italic;
+  }
+  
+  .text-section {
+    margin-bottom: 20px;
+  }
+  
+  .text-section h3 {
+    margin-top: 0;
+    color: #333;
   }
   
   /* Three-column section styles */
@@ -138,14 +140,6 @@ author_profile: true
   @media (max-width: 768px) {
     .gallery figure {
       width: 48%;
-    }
-    
-    .two-column-section {
-      flex-direction: column;
-    }
-    
-    .left-column, .right-column {
-      flex: auto;
     }
     
     .three-column-section {
